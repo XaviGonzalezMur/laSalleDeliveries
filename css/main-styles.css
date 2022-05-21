@@ -296,6 +296,15 @@ textarea {
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 576px) { /*aqui hacemos que los campos de formulario se expandan si la pantalla baja de cierto tamaño*/
+    textarea {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+    }
+}
+
 #h2form {
     text-align: center;
     padding-left: 0em;
