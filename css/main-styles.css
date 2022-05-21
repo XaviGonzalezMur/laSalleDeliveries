@@ -108,13 +108,6 @@ article {
 
 }
 
-.servicegrup {
-
-    display: inline-block;
-    width: 32%;
-    margin-right: 10px;
-
-}
 
 .titleservices {
 
@@ -152,15 +145,10 @@ article {
     padding: 10px;
     border-color: rgba(223, 216, 216, 0.719);
     border-style: solid;
-    width: 40px;
+ 
 
 }
 
-.servicetotal {
-    width: 95%;
-
-
-}
 
 /*Style portfolio*/
 
