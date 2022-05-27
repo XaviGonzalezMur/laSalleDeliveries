@@ -6,9 +6,6 @@ body {
     color: #787878
 }
 
-
-
-
 section#who_we_are {
     padding: 3em 3em 5px 3em;
     background-color: rgba(242, 242, 242, 255);
@@ -19,7 +16,6 @@ section#services {
     padding-bottom: 30px;
     padding-left: 15px;
     background-color: white;
-
 }
 
 section#portfolio {
@@ -51,33 +47,22 @@ section h2 {
 
 article {
     text-align: justify;
+    padding: 1em 0 0.5em 0;
 }
 
 .subtitle {
     text-align: center;
+    width: 75%;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 47%;
-    /* It should be 50% */
-    padding: 10px;
-}
-
-.column:nth-child(odd) {
-    border-right: 1px solid #d3d3d3;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+@media only screen and (min-width: 768px) {
+    .col:nth-child(odd) {
+        border-right: 1px solid #d3d3d3;
+    }
 }
 
 .row {
-    margin: 2em 0 0 0;
+    margin: 1.5em 0 1em 0;
 }
 
 .centered {
@@ -87,6 +72,12 @@ article {
 .float_left {
     float: left;
     margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.float_right {
+    float: right;
+    margin-left: 10px;
     margin-bottom: 10px;
 }
 
