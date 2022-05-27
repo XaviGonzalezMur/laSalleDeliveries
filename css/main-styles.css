@@ -150,33 +150,15 @@ div#portfolio_content div img {
     margin-bottom: 15px;
 }
 
-div#portfolio_content div#grid div div{
+div#portfolio_content div#portfolio_grid div div{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-div#grid{
+div#portfolio_grid{
     margin-top: 20px;
 }
-/*
-div#image2 img{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    position:absolute;
-} */
-/*
-table#images tr td img {
-    width: 300px;
-    height: 200px;
-} 
-
-table#images {
-    border-spacing: 5px 20px;
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 img.rotation {
     transition-duration: 1s;
@@ -197,20 +179,10 @@ img.spin:hover {
     border-radius: 150px / 100px;
 }
 
-/*
-.form-group {
-    margin-bottom: 15px;
-
-}
-*/
 
 /*Location*/
 
 
-
-/*section#Location h1{
-    margin: auto;
-}*/
 
 main section#Location div {
     list-style: none;
