@@ -2,43 +2,42 @@
     margin: 0;
     padding: 0.4em 1em;
     color: white;
-    background-image: url("../img/header.jpg");
-    background-size: 100% 150%;
+    background-image: url("../img/header-mini.png");
+    background-size: 101%;
     background-position: left center;
     line-height: 250px;
+    font-weight: bold;
 }
 
-nav{
+.navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar-brand {
     margin: 0;
     padding: 0;
 }
 
-nav ul {
-    list-style-type: none;
+.navbar {
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 0.4em;
     background-color: #61458c;
 }
 
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    display: inline-block;
-    text-align: center;
+.nav-link {
+    color: white;
     font-size: smaller;
     font-weight: bold;
-    margin: 0.5em 1em 0.5em 1em;
-    padding: 0.7em;
-    border-radius: 5%;
-    text-decoration: none; /* Removes anchor decorations */
-    color: white;
-    white-space: nowrap; /* Avoids line feed of blank spaces when stretching */
 }
 
-nav ul li a:hover {
+.navbar a {
+    text-align: center;
+    margin: 0em 1em 0em 1em;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
     background-color: white;
     color: #61458c;
 }
