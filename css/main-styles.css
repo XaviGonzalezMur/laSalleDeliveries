@@ -263,6 +263,7 @@ section#Location {
     font-weight: bold;
 }
 
+
 /* Email us */
 
 .backgroundmapa {
@@ -286,7 +287,7 @@ input {
     border-radius: 5px;
     border-width: 0;
     height: 25px;
-    width: 250px;
+    width: 100%;
 }
 
 .form_send_button {
@@ -296,8 +297,17 @@ input {
 textarea {
     left: 500px;
     height: 75px;
-    width: 250px;
+    width: 100%;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 576px) { /*aqui hacemos que los campos de formulario se expandan si la pantalla baja de cierto tamaño*/
+    textarea {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+    }
 }
 
 #h2form {
@@ -317,10 +327,10 @@ textarea {
 }
 
 #email_us input{
-    margin: 2 px;
+    margin: 4 px;
 } 
 
 #email_us label{
-    margin: 2px;
+    margin: 4px;
     text-align: right;
 }
