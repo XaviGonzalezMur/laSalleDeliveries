@@ -213,9 +213,12 @@ section#Location {
     padding-bottom: 70px;
 }
 
-.strongitalicmapa {
-    font-style: italic;
+.strong {
     font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
 
 
