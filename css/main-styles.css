@@ -3,29 +3,33 @@ body {
     margin: 0 auto;
     max-width: 1024px;
     font-family: "Open Sans", sans-serif;
-    color: #6a6a6a
+    color: #4F4F4F
+}
+
+section:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+section:nth-child(even) {
+    background-color: white;
 }
 
 section#who_we_are {
     padding: 3em 3em 5px 3em;
-    background-color: #f2f2f2;
 }
 
 section#services {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 15px;
-    background-color: white;
 }
 
 section#portfolio {
-    background-color: #f2f2f2;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 section#Location {
-    background-color: white;
     text-align: center;
 }
 
@@ -35,7 +39,7 @@ section h3,
 section h4,
 section h5,
 section h6 {
-    color: #4e4e4e
+    color: #454545
 }
 
 section h2 {
