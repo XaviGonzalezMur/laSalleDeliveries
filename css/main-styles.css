@@ -3,12 +3,12 @@ body {
     margin: 0 auto;
     max-width: 1024px;
     font-family: "Open Sans", sans-serif;
-    color: #787878
+    color: #6a6a6a
 }
 
 section#who_we_are {
     padding: 3em 3em 5px 3em;
-    background-color: rgba(242, 242, 242, 255);
+    background-color: #f2f2f2;
 }
 
 section#services {
@@ -19,7 +19,7 @@ section#services {
 }
 
 section#portfolio {
-    background-color: rgba(242, 242, 242, 255);
+    background-color: #f2f2f2;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -81,27 +81,21 @@ article {
     margin-bottom: 10px;
 }
 
+
 /*Service*/
-
-
 .contenido {
-
-
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
 .titleService {
-
     font-size: 1.5em;
     margin: 0px;
-
 }
 
 
 .titleservices {
-
     text-align: center;
     padding-bottom: 50px;
 }
@@ -109,7 +103,6 @@ article {
 .service {
     font-size: 0.9em;
     text-align: justify;
-    color: rgb(133, 133, 134);
 }
 
 .conjunto {
@@ -119,14 +112,11 @@ article {
 .elemento1 {
     float: left;
     width: 20%;
-
 }
 
 .elemento2 {
     width: 75%;
     float: right;
-
-
 }
 
 .iconoservice {
@@ -136,14 +126,10 @@ article {
     padding: 10px;
     border-color: rgba(223, 216, 216, 0.719);
     border-style: solid;
- 
-
-}
+ }
 
 
 /*Style portfolio*/
-
-
 div#portfolio_content div img {
     width: 240px;
     height: 160px;
@@ -181,9 +167,6 @@ img.spin:hover {
 
 
 /*Location*/
-
-
-
 main section#Location div {
     list-style: none;
     position: relative;
@@ -216,7 +199,6 @@ section#Location {
 
 
 /* Email us */
-
 .backgroundmapa {
     padding: 2em;
     color: white;
@@ -230,7 +212,6 @@ section#Location {
 .box1form {
     color: white;
     width: 100%;
-
 }
 
 input {
