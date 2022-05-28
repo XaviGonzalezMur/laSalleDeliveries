@@ -6,26 +6,30 @@ body {
     color: #4F4F4F
 }
 
+section:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+section:nth-child(even) {
+    background-color: white;
+}
+
 section#who_we_are {
     padding: 3em 3em 5px 3em;
-    background-color: #f2f2f2;
 }
 
 section#services {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 15px;
-    background-color: white;
 }
 
 section#portfolio {
-    background-color: #f2f2f2;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 section#Location {
-    background-color: white;
     text-align: center;
 }
 
