@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     max-width: 1024px;
     font-family: "Open Sans", sans-serif;
-    color: #6a6a6a
+    color: #4F4F4F
 }
 
 section#who_we_are {
@@ -35,7 +35,7 @@ section h3,
 section h4,
 section h5,
 section h6 {
-    color: #4e4e4e
+    color: #454545
 }
 
 section h2 {
