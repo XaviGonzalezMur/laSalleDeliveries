@@ -198,6 +198,23 @@ main section#Location div#mapa {
     border: 2px solid black;
 }
 
+@media only screen and (max-width: 576px) { /*aqui hacemos que los campos de formulario se expandan si la pantalla baja de cierto tamaño*/
+    main section#Location div#mapa {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid black;
+    }
+    div#mapa iframe{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
 section#Location div div#info div.parrafo_info {
     text-align: justify;
     padding: 10px;
@@ -250,15 +267,6 @@ textarea {
     height: 75px;
     width: 100%;
     border-radius: 5px;
-}
-
-@media only screen and (max-width: 576px) { /*aqui hacemos que los campos de formulario se expandan si la pantalla baja de cierto tamaño*/
-    textarea {
-        width: 100%;
-    }
-    input {
-        width: 100%;
-    }
 }
 
 #h2form {
