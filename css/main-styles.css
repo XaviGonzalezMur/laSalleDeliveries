@@ -1,3 +1,4 @@
+/* Common CSS */
 html,
 body {
     margin: 0 auto;
@@ -12,25 +13,6 @@ section:nth-child(odd) {
 
 section:nth-child(even) {
     background-color: white;
-}
-
-section#who_we_are {
-    padding: 3em 3em 5px 3em;
-}
-
-section#services {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-}
-
-section#portfolio {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-section#Location {
-    text-align: center;
 }
 
 section h1,
@@ -59,158 +41,12 @@ article {
     width: 75%;
 }
 
-@media only screen and (min-width: 768px) {
-    .col:nth-child(odd) {
-        border-right: 1px solid #d3d3d3;
-    }
-}
-
 .row {
-    margin: 1.5em 0 1em 0;
+    margin: 1.5em 0 0.5em 0;
 }
 
 .centered {
     text-align: center;
-}
-
-.float_left {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.float_right {
-    float: right;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-
-/*Service*/
-.contenido {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.titleService {
-    font-size: 1.5em;
-    margin: 0px;
-}
-
-
-.titleservices {
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.service {
-    font-size: 0.9em;
-    text-align: justify;
-}
-
-.conjunto {
-    width: 100%;
-}
-
-.elemento1 {
-    float: left;
-    width: 20%;
-}
-
-.elemento2 {
-    width: 75%;
-    float: right;
-}
-
-.iconoservice {
-    width: 100%;
-    border-radius: 80px;
-    border-width: medium;
-    padding: 10px;
-    border-color: rgba(223, 216, 216, 0.719);
-    border-style: solid;
- }
-
-
-/*Style portfolio*/
-div#portfolio_content div img {
-    width: 240px;
-    height: 160px;
-    margin-bottom: 15px;
-}
-
-div#portfolio_content div#portfolio_grid div div{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-div#portfolio_grid{
-    margin-top: 20px;
-}
-
-img.rotation {
-    transition-duration: 1s;
-}
-
-img.rotation:hover {
-    transform: rotate(-20deg)
-}
-
-img.spin {
-    transition-duration: 1s;
-}
-
-img.spin:hover {
-    transform: rotate(360deg);
-    width: 300px;
-    height: 200px;
-    border-radius: 150px / 100px;
-}
-
-
-/*Location*/
-main section#Location div {
-    list-style: none;
-    position: relative;
-    display: inline-block;
-}
-
-main section#Location div#mapa {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 2px solid black;
-}
-
-@media only screen and (max-width: 576px) { /*aqui hacemos que los campos de formulario se expandan si la pantalla baja de cierto tamaño*/
-    main section#Location div#mapa {
-        margin-top: 30px;
-        margin-left: 30px;
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        overflow: hidden;
-        border: 2px solid black;
-    }
-    div#mapa iframe{
-        width: 200px;
-        height: 200px;
-    }
-}
-
-
-section#Location div div#info div.parrafo_info {
-    text-align: justify;
-    padding: 10px;
-    display: block;
-}
-
-section#Location {
-    border: 20px solid white;
-    padding-bottom: 70px;
 }
 
 .strong {
@@ -222,8 +58,170 @@ section#Location {
 }
 
 
+/* Who we are */
+#who_we_are {
+    padding: 2em 2em 0.5em 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    #who_we_are .col:nth-child(odd) {
+        border-right: 1px solid #d3d3d3;
+    }
+}
+
+#who_we_are .float_left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#who_we_are .float_right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Services */
+#services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+
+#services .contenido {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#services .titleService {
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+#services .titleservices {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#services .conjunto {
+    width: 100%;
+}
+
+#services .elemento1 {
+    float: left;
+    width: 20%;
+}
+
+#services .iconoservice {
+    width: 100%;
+    border-radius: 80px;
+    border-width: medium;
+    padding: 10px;
+    border-color: rgba(223, 216, 216, 0.719);
+    border-style: solid;
+ }
+
+#services .elemento2 {
+    width: 75%;
+    float: right;
+}
+
+#services .service {
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+
+/* Portfolio */
+#portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#portfolio_content div img {
+    width: 240px;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+#portfolio_content #portfolio_grid div div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#portfolio_grid {
+    margin-top: 20px;
+}
+
+#portfolio img.rotation {
+    transition-duration: 1s;
+}
+
+#portfolio img.rotation:hover {
+    transform: rotate(-20deg)
+}
+
+#portfolio img.spin {
+    transition-duration: 1s;
+}
+
+#portfolio img.spin:hover {
+    transform: rotate(360deg);
+    width: 300px;
+    height: 200px;
+    border-radius: 150px / 100px;
+}
+
+
+/* Location */
+#Location {
+    text-align: center;
+    border: 20px solid white;
+    padding-bottom: 70px;
+}
+
+#Location div {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+#Location #mapa {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+#Location #info div.parrafo_info {
+    text-align: justify;
+    padding: 10px;
+    display: block;
+}
+
+@media only screen and (max-width: 576px) { /*aqui hacemos que los campos de formulario se expandan si la pantalla baja de cierto tamaño*/
+    #Location #mapa {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid black;
+    }
+    #Location #mapa iframe{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
 /* Email us */
-.backgroundmapa {
+#email_us .backgroundmapa {
     padding: 2em;
     color: white;
     background-image: url("../img/map-image.png");
@@ -233,12 +231,12 @@ section#Location {
     background-repeat: no-repeat;
 }
 
-.box1form {
+#email_us .box1form {
     color: white;
     width: 100%;
 }
 
-input {
+#email_us input {
     left: 500px;
     border-radius: 5px;
     border-width: 0;
@@ -246,38 +244,38 @@ input {
     width: 100%;
 }
 
-.form_send_button {
+#email_us .form_send_button {
     width: 100px;
 }
 
-textarea {
+#email_us textarea {
     left: 500px;
     height: 75px;
     width: 100%;
     border-radius: 5px;
 }
 
-#h2form {
+#email_us #h2form {
     text-align: center;
     padding-left: 0em;
     color: white;
 }
 
-.form_table {
+#email_us .form_table {
     margin-left: auto;
     margin-right: auto;
 }
 
-.form_table td {
+#email_us .form_table td {
     padding: 5px;
     vertical-align: top;
 }
 
-#email_us input{
+#email_us input {
     margin: 4 px;
-} 
+}
 
-#email_us label{
+#email_us label {
     margin: 4px;
     text-align: right;
 }
