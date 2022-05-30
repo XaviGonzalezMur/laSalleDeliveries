@@ -174,15 +174,14 @@ article {
 
 /* Location */
 #Location {
-    text-align: center;
-    border: 20px solid white;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#Location div {
-    list-style: none;
-    position: relative;
-    display: inline-block;
+#Location #location_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Location #mapa {
@@ -191,27 +190,28 @@ article {
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid black;
+    padding: 0; /* Allows to fit the iframe inside #mapa because nullifies the padding added by .row */
 }
 
 #Location #info div.parrafo_info {
-    text-align: justify;
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 2em;
     padding: 10px;
-    display: block;
 }
 
-@media only screen and (max-width: 576px) { /*aqui hacemos que los campos de formulario se expandan si la pantalla baja de cierto tamaño*/
+#Location #info a {
+    text-decoration: solid;
+}
+
+@media only screen and (max-width: 768px) {
     #Location #mapa {
-        margin-top: 30px;
-        margin-left: 30px;
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        overflow: hidden;
-        border: 2px solid black;
+        width: 275px;
+        height: 275px;
     }
-    #Location #mapa iframe{
-        width: 200px;
-        height: 200px;
+    #Location #info div.parrafo_info {
+        margin-left: 0;
+        text-align: center;
     }
 }
 
