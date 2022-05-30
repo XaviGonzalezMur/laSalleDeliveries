@@ -31,6 +31,12 @@ section h2 {
     font-size: xx-large;
 }
 
+section h3 {
+    margin: 0 0 0.5em 0;
+    font-weight: bold;
+    font-size: large;
+}
+
 article {
     text-align: justify;
     padding: 1em 0 0.5em 0;
@@ -86,51 +92,41 @@ article {
 #services {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 15px;
-}
-
-#services .contenido {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-#services .titleService {
-    font-size: 1.5em;
-    margin: 0px;
-}
-
-#services .titleservices {
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-#services .conjunto {
-    width: 100%;
 }
 
 #services .elemento1 {
+    margin: 10px;
     float: left;
-    width: 20%;
+    width: 25%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px rgba(223, 216, 216, 0.719) solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 2s ease-out;
+}
+
+#services .elemento1:hover {
+    background-color: purple;
 }
 
 #services .iconoservice {
-    width: 100%;
-    border-radius: 80px;
-    border-width: medium;
-    padding: 10px;
-    border-color: rgba(223, 216, 216, 0.719);
-    border-style: solid;
- }
+    width: 35px;
+    height: 35px;
+    /* Filter value for color #61458c, obtained from: https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(28%) sepia(61%) saturate(511%) hue-rotate(222deg) brightness(97%) contrast(94%);
+}
 
 #services .elemento2 {
-    width: 75%;
+    width: 65%;
     float: right;
 }
 
 #services .service {
-    font-size: 0.9em;
-    text-align: justify;
+    font-size: smaller;
 }
 
 
