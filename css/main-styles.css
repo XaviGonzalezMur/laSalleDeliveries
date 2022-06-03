@@ -100,7 +100,12 @@ article {
 
 
 /* Services */
-.div1 {
+#services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#services .div1 {
     position: relative;
     background-color: rgba(223, 216, 216, 0.719);
     padding: 3px;
@@ -109,7 +114,7 @@ article {
     border-radius: 150px;
 }
 
-.div1 .div2 {
+#services .div1 .div2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -122,46 +127,46 @@ article {
     border-radius: 155px;
 }
 
-.div1:hover .div2 {
+#services .div1:hover .div2 {
     opacity: 1;
 }
 
-.contenido {
+#services .contenido {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
-.titleService {
+#services .titleService {
     font-size: 1.5em;
     margin: 0px;
 }
 
-.titleservices {
+#services .titleservices {
     text-align: center;
     padding-bottom: 50px;
 }
 
-.service {
+#services .service {
     font-size: 0.9em;
     text-align: justify;
 }
 
-.conjunto {
+#services .conjunto {
     width: 100%;
 }
 
-.elemento1 {
+#services .elemento1 {
     float: left;
     width: 20%;
 }
 
-.elemento2 {
+#services .elemento2 {
     width: 75%;
     float: right;
 }
 
-.iconoservice {
+#services .iconoservice {
     width: 100%;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
