@@ -25,7 +25,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <header>
-        <h1 class="title">My Business Webpage</h1>
+        <h1 class="title" tabindex="0">My Business Webpage</h1>
         <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container-fluid">
                 <span class="navbar-brand"></span>
@@ -47,11 +47,10 @@
     </header>
 
     <main>
-        <section id="who_we_are" aria-label="who we are" tabindex="0">
+        <section id="who_we_are" aria-label="Who we are" tabindex="0">
             <h2>Who we are?</h2>
             <div class="container subtitle" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas dictum venenatis
-                dui, eget lobortis dolor.</div>
+                Maecenas dictum venenatis dui, eget lobortis dolor.</div>
             <div class="row container-fluid">
                 <div class="col col-12 col-md-6 col-lg-6">
                     <article tabindex="0">
@@ -76,24 +75,20 @@
                 <div class="col col-12 col-md-6 col-lg-6">
                     <article tabindex="0">
                         <h3>Lorem ipsum</h3>
-                        <img class="float_right" src="img/ad.jpg" alt="Ad" width="200">
+                        <img class="float_right" src="img/ad.png" alt="Amazon advertise" width="200">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum venenatis dui, eget
-                        lobortis
-                        dolor. Quisque vestibulum velit quam, sit amet gravida arcu viverra et. Vestibulum ante ipsum
-                        primis in
-                        faucibus orci luctus et ultrices posuere cubilia curae; Sed et tempor nibh. Mauris in facilisis
-                        enim, ut
-                        tristique leo. Praesent est dui, molestie et massa ut, feugiat dignissim felis.
+                        lobortis dolor. Quisque vestibulum velit quam, sit amet gravida arcu viverra et. Vestibulum ante
+                        ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et tempor nibh.
+                        Mauris in facilisis enim, ut tristique leo. Praesent est dui, molestie et massa ut, feugiat
+                        dignissim felis.
                     </article>
                     <article tabindex="0">
                         <h3>Lorem ipsum</h3>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum venenatis dui, eget
-                        lobortis
-                        dolor. Quisque vestibulum velit quam, sit amet gravida arcu viverra et. Vestibulum ante ipsum
-                        primis in
-                        faucibus orci luctus et ultrices posuere cubilia curae; Sed et tempor nibh. Mauris in facilisis
-                        enim, ut
-                        tristique leo. Praesent est dui, molestie et massa ut, feugiat dignissim felis.
+                        lobortis dolor. Quisque vestibulum velit quam, sit amet gravida arcu viverra et. Vestibulum ante
+                        ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et tempor nibh.
+                        Mauris in facilisis enim, ut tristique leo. Praesent est dui, molestie et massa ut, feugiat
+                        dignissim felis.
                     </article>
                 </div>
             </div>
@@ -219,38 +214,34 @@
         <section id="Location" aria-label="Location" tabindex="0">
             <h2>Location</h2>
             <p class="container subtitle" tabindex="0">You can find us</p>
-            <div>
-                <div id="mapa">
-                    <iframe title="map with the company location"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d748.1051708615696!2d2.129517129239619!3d41.40838579870392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816d2174de3%3A0xdf19845b9ce0e77d!2sCarrer%20de%20Sant%20Joan%20de%20la%20Salle%2C%2042%2C%2008022%20Barcelona!5e0!3m2!1sen!2ses!4v1652460352819!5m2!1sen!2ses"
-                        width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" tabindex="-1">
-                    </iframe>
-                </div>
-                <div id="espacio">
-                    <p>&#160;&#160;&#160;</p>
-                </div>
-                <div id="info">
-                    <div class="parrafo_info" tabindex="0">
-                        <h3 class="strong">Head Office</h3>
-                        <p class="strong italic">
-                            12356 Blank Street<br>
-                            Phone:<a href="tel:2456134321">2456-134-321</a><br>
-                            Email Address:<br>
-                            <a href="mailto:info@domain.edu">info@domain</a>
-                        </p>
+            <div class="container-fluid">
+                <div id="location_content" class="row">
+                    <div id="mapa" class="col-md-4">
+                        <iframe title="map with the company location"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d748.1051708615696!2d2.129517129239619!3d41.40838579870392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816d2174de3%3A0xdf19845b9ce0e77d!2sCarrer%20de%20Sant%20Joan%20de%20la%20Salle%2C%2042%2C%2008022%20Barcelona!5e0!3m2!1sen!2ses!4v1652460352819!5m2!1sen!2ses"
+                            width="400" height="400" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" tabindex="-1">
+                        </iframe>
                     </div>
+                    <div id="info" class="col-md-4">
+                        <div class="parrafo_info" tabindex="0">
+                            <h3 class="strong">Head Office</h3>
+                            <p class="italic">
+                                12356 Blank Street<br>
+                                Phone: <a href="tel:2456134321">2456-134-321</a><br>
+                                Email Address: <a href="mailto:info@domain.edu">info@domain</a>
+                            </p>
+                        </div>
 
-                    <div class="parrafo_info" tabindex="0">
-                        <h3 class="strong">Emea</h3>
-                        <p class="strong italic">
-                            Carrer de Sant Joan de la<br>
-                            Salle, 42<br>
-                            08022 Barcelona<br>
-                            Phone: <a href="tel:932902474">932 90 24 74</a><br>
-                            Email Address:<br>
-                            <a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
-                        </p>
+                        <div class="parrafo_info" tabindex="0">
+                            <h3 class="strong">Emea</h3>
+                            <p class="italic">
+                                Carrer de Sant Joan de la Salle, 42<br>
+                                08022 Barcelona<br>
+                                Phone: <a href="tel:932902474">932 90 24 74</a><br>
+                                Email Address: <a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
