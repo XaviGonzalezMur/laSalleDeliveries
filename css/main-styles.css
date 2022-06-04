@@ -32,13 +32,13 @@ section h2 {
 }
 
 section h3 {
-    margin: 0 0 0.5em 0;
+    margin: 0.5em 0 0.5em 0;
     font-weight: bold;
     font-size: large;
 }
 
 article {
-    padding: 1em 0 0.5em 0;
+    padding: 0.5em 0 0.5em 0;
 }
 
 .subtitle {
@@ -91,27 +91,36 @@ article {
 #services {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 15px;
 }
 
-#services .contenido {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+#services .div1 {
+    position: relative;
+    background-color: rgba(223, 216, 216, 0.719);
+    padding: 3px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
 }
 
-#services .titleService {
-    font-size: 1.5em;
-    margin: 0px;
+#services .div1 .div2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+    background-color: rgba(223, 216, 216, 0.719);
+    padding: 3px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
 }
 
-#services .titleservices {
-    text-align: center;
-    padding-bottom: 50px;
+#services .div1:hover .div2 {
+    opacity: 1;
 }
 
-#services .conjunto {
-    width: 100%;
+#services .service {
+    font-size: smaller;
 }
 
 #services .elemento1 {
@@ -119,23 +128,17 @@ article {
     width: 20%;
 }
 
-#services .iconoservice {
-    width: 100%;
-    border-radius: 80px;
-    border-width: medium;
-    padding: 10px;
-    border-color: rgba(223, 216, 216, 0.719);
-    border-style: solid;
- }
-
 #services .elemento2 {
     width: 75%;
     float: right;
 }
 
-#services .service {
-    font-size: 0.9em;
-    text-align: justify;
+#services .iconoservice {
+    width: 100%;
+    background-color: #f2f2f2;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
 }
 
 
