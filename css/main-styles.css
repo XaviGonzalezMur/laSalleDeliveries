@@ -93,52 +93,40 @@ article {
     padding-bottom: 30px;
 }
 
-#services .div1 {
-    position: relative;
-    background-color: rgba(223, 216, 216, 0.719);
-    padding: 3px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    border-radius: 150px;
+#services .elemento1 {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px rgba(223, 216, 216, 0.719) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-out;
 }
 
-#services .div1 .div2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: .5s;
-    background-color: rgba(223, 216, 216, 0.719);
-    padding: 3px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    border-radius: 150px;
+#services .elemento1:hover {
+    background-color: purple;
 }
 
-#services .div1:hover .div2 {
-    opacity: 1;
+#services .elemento1:hover .iconoservice {
+    filter: invert(100%);
+}
+
+#services .iconoservice {
+    width: 40px;
+    height: 40px;
+    /* Filter value for color #61458c, obtained from: https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(28%) sepia(61%) saturate(511%) hue-rotate(222deg) brightness(97%) contrast(94%);
+}
+
+#services .elemento2 {
+    float: right;
+    width: 65%;
 }
 
 #services .service {
     font-size: smaller;
-}
-
-#services .elemento1 {
-    float: left;
-    width: 20%;
-}
-
-#services .elemento2 {
-    width: 75%;
-    float: right;
-}
-
-#services .iconoservice {
-    width: 100%;
-    background-color: #f2f2f2;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    border-radius: 150px;
 }
 
 
