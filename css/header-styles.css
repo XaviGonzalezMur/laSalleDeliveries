@@ -9,6 +9,8 @@
     background-image: url("../img/header-mini.png");
     background-size: 101%;
     background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
     line-height: 250px;
     font-weight: bold;
 }
