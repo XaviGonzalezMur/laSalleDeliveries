@@ -241,6 +241,7 @@ article {
 }
 
 #email_us .form_send_button {
+    margin-top: 10px;
     width: 100px;
 }
 
@@ -258,6 +259,6 @@ article {
 }
 
 #email_us label {
-    margin: 4px;
+    margin: 5px;
     text-align: right;
 }
