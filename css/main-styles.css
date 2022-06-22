@@ -257,16 +257,6 @@ article {
     color: white;
 }
 
-#email_us .form_table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#email_us .form_table td {
-    padding: 5px;
-    vertical-align: top;
-}
-
 #email_us label {
     margin: 4px;
     text-align: right;
