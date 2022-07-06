@@ -6,16 +6,16 @@ window.addEventListener("load", () => {
     const divs = document.getElementsByTagName('div');
 
     for(let div of divs) {
-        div.addEventListener('mouseover', (ev) => {
-            const target = ev.target;
-            if(ev.altKey) {
+        div.addEventListener('mouseover', (event) => {
+            const target = event.target;
+            if(event.altKey) {
                 target.classList.add("div_highlighted");
             }
         });
 
-        div.addEventListener('mouseout', (ev) => {
-            const target = ev.target;
-            if(ev.altKey) {
+        div.addEventListener('mouseout', (event) => {
+            const target = event.target;
+            if(event.altKey) {
                 target.classList.remove("div_highlighted");
             }
         });
