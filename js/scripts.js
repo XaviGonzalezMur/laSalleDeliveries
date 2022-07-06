@@ -21,3 +21,25 @@ window.addEventListener("load", () => {
         });
     };
 });
+
+document.addEventListener('keydown', (event) => {
+    var code = event.code;
+
+    switch (code) {
+        case "Digit1":
+          window.location = "#who_we_are";
+          break;
+        case "Digit2":
+          window.location = "#services";
+          break;
+        case "Digit3":
+          window.location = "#portfolio";
+          break;
+        case "Digit4":
+          window.location = "#Location";
+          break;
+        case "Digit5":
+          window.location = "#email_us";
+          break;
+      }
+  }, false);
