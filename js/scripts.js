@@ -53,7 +53,7 @@ window.addEventListener("load", () => {
     document.addEventListener('keyup', (event) => {
       var code = event.code.slice(-1) - 1; // from 0 to 4
 
-      if (code == i) {
+      if (code === i) {
         element.click();
       }
     });
