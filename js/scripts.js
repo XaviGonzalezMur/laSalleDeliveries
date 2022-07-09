@@ -67,17 +67,13 @@
 
   // Conversion to Array with 3 dots so that 'forEach' can be used.
   // Array.from(navBarLinks) is an alternative.
-  [...navBarLinks].forEach((link, i) => {
+  [...navBarLinks].forEach((link, index) => {
     // Adding as many listeners as items the navigation bar has, to react on 'keyup' event from keyboard.
-    // The next lambda creates a Closure scope where 'link' and 'i' will have fixed values,
-    // so every listener is configured for a unique combination of link and key(=i).
+    // The next lambda creates a Closure scope where 'link' and 'index' will have fixed values,
+    // so every listener is configured for a unique combination of link and key(=index).
     document.addEventListener('keyup', (event) => {
-      // slice(-1) removes the "Digit" part, leaving the number...
-      // ... then shifting the values from 1 to n, to 0 to n-1
-      let code = Number(event.code.slice(-1)) - 1;
-
       // The link is clicked when the code of the pressed key matches the proper link (i.e. its index)
-      if (code === i) {
+      if (Number(event.key) === index + 1) {
         link.click();
       }
     });
