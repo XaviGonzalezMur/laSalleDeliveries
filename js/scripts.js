@@ -40,7 +40,7 @@
 //     let code = event.code;
 
 //     switch (code) {
-//       case "Digit1":
+//       case "Digit1":  // key pressed: 1
 //         window.location = "#who_we_are";
 //         break;
 //       case "Digit2":
