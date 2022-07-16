@@ -15,10 +15,8 @@ window.addEventListener("load", () => {
 
         // When mouse is out...
         div.addEventListener('mouseout', (event) => {
-            // ...and Alt key is pressed, the CSS class is removed (so it's disabled)
-            if (event.altKey) {
-                event.target.classList.remove("div_highlighted");
-            }
+            // ...the CSS class is removed (so it's disabled)
+            event.target.classList.remove("div_highlighted");
         });
     };
 });
