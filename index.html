@@ -22,7 +22,8 @@
 <body>
     <header>
         <h1 class="title" tabindex="0">My Business Webpage</h1>
-        <nav id="navigation_bar" class="navbar navbar-expand-sm navbar-dark">
+        <nav id="navigation_bar" class="navbar navbar-expand-sm navbar-dark" data-controller="kn"
+            data-action="keyup@document->kn#follow">
             <div class="container-fluid">
                 <span class="navbar-brand"></span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -31,11 +32,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav me-auto mb-0 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#who_we_are">Who We are?</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Our Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Location">Location</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#email_us">Email Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#who_we_are" data-kn-target="link">Who We
+                                are?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services" data-kn-target="link">Our Services</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio" data-kn-target="link">Portfolio</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#Location" data-kn-target="link">Location</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#email_us" data-kn-target="link">Email Us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
